@@ -35,7 +35,7 @@ function fetchHYFReps(){
      for(const repo of repoList){
          const li = document.createElement('li');
          ul.appendChild(li);    
-         li.innerHTML ='<a target="_blank" href="${repo.url}">${repo.name}</a>';
+         li.innerHTML =`<a target="_blank" href="${repo.url}">${repo.name}</a>`;
      }
 });
 }
